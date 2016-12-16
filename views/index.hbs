@@ -1,0 +1,25 @@
+<div id="paymentform">	
+	<form id="checkout-form" action="/paymentsubmission" method="post">
+	
+	  <label for="card-number">Card Number</label>
+	  <div class="hosted-field" id="card-number"></div>
+
+	  <label for="cvv">CVV</label>
+	  <div class="hosted-field" id="cvv"></div>
+
+	  <label for="expiration-date">Expiration Date</label>
+	  <div class="hosted-field" id="expiration-date"></div>
+
+	  <input type="hidden" name="payment-method-nonce">
+	  <input id="submitform" type="submit" value="Pay $10" disabled>
+
+	  <div id="error"></div>
+	</form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script src="https://js.braintreegateway.com/web/3.6.1/js/client.min.js"></script>
+<script src="https://js.braintreegateway.com/web/3.6.1/js/hosted-fields.min.js"></script>
+<script src="/javascripts/app.js"></script>
+
+
