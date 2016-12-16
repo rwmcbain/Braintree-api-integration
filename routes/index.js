@@ -17,7 +17,7 @@ router.get('/client_token', function(req, res, next){
 	gateway.clientToken.generate({}, function (err, response) {
   	var clientToken = response.clientToken
   	res.send(clientToken)
-});
+  });
 });
 
 router.post('/paymentsubmission', function (req, res) {
