@@ -23,6 +23,6 @@ Test integration of Braintree's API with Node.js
 
 ## Making a payment
 
-To make a successful test payment enter the placeholder details in the input fields. If correctly input, the field will be green.
+To make a **successful** test payment enter the placeholder details in the input fields. If correctly input, the field will be green.
 
-To make an unsuccessfull test payment, enter in any value and press pay. An error will be displayed on the page.
+To make an **unsuccessfull** test payment, enter in any value and press pay. An error will be displayed on the page.
