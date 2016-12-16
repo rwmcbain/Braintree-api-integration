@@ -6,7 +6,7 @@ Test integration of Braintree's API with Node.js
 
 ## Setup Instructions
 
-1. Clone down respository from Github
+1. Clone down respository from Github - `git@github.com:rwmcbain/Braintree-api-integration.git`
 
 2. Install packages:
 
